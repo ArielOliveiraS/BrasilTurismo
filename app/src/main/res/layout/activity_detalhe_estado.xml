@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.views.activity.DetalheEstado">
+
+
+    <ImageView
+        android:id="@+id/imageBannerEstado"
+        android:layout_width="411dp"
+        android:layout_height="168dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/acre" />
+
+    <TextView
+        android:id="@+id/detalheNomeEstado"
+        android:layout_width="150dp"
+        android:layout_height="20sp"
+        android:layout_marginTop="8dp"
+        android:text="Estado: Acre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBannerEstado" />
+
+    <TextView
+        android:id="@+id/detalheCapitalEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="Capital: Rio Branco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detalheNomeEstado" />
+
+    <TextView
+        android:id="@+id/detalheDestaqueEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="Destaque: sei lá o que"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detalheCapitalEstado" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDetalheEstado"
+        android:layout_width="408dp"
+        android:layout_height="483dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detalheDestaqueEstado" />
+</androidx.constraintlayout.widget.ConstraintLayout>
