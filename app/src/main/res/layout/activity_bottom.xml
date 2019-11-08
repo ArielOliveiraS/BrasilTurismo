@@ -10,8 +10,7 @@
     <FrameLayout
         android:id="@+id/containerBottom"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+        android:layout_height="match_parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
@@ -24,7 +23,6 @@
         app:menu="@menu/bottom_nav">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

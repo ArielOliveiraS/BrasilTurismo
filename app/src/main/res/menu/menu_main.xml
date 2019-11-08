@@ -3,10 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/notifications_home"
-        android:title="Notifications"
-        android:icon="@drawable/ic_location_city_black_24dp"
+        android:title="Conta"
         android:iconTint="@color/branco"
-        app:showAsAction="ifRoom"/>
-
+      />
+    <item
+        android:id="@+id/configuracoes"
+        android:title="Configuraçoes"
+        android:iconTint="@color/branco"
+        />
+    <item
+        android:id="@+id/faq"
+        android:title="Faq"
+        android:iconTint="@color/branco"
+   />
+    <item
+        android:id="@+id/sair"
+        android:title="Sair"
+        android:iconTint="@color/branco"
+        />
 
 </menu>
